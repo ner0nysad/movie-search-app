@@ -1,0 +1,39 @@
+.movies {
+}
+.movies__container {
+  max-width: 61.25rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.movies__loader {
+  display: block;
+  margin: 0 auto;
+}
+
+.movies__title {
+  margin: 0 0 2.5rem 0;
+}
+.movies__pagination {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 992px) {
+  .movies__title {
+    margin: 0 0 2rem 0;
+  }
+}
+@media (max-width: 768px) {
+  .movies__title {
+    margin: 0 0 1rem 0;
+    text-align: center;
+  }
+}
+@media (max-width: 481px) {
+  .movies__pagination {
+    justify-content: center;
+  }
+  .movies__pagination__control {
+    --pagination-control-size: 1.4rem;
+  }
+}

@@ -1,0 +1,32 @@
+.combobox {
+  margin: 0 1rem 0 0;
+  width: 100%;
+  max-width: 283.67px;
+}
+.label {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.input:focus,
+.input:focus-within {
+  border-color: var(--color-purple-500);
+}
+.option:hover {
+  background: var(--color-purple-100);
+}
+.option:active {
+  background: var(--color-purple-500);
+  color: var(--color-white);
+}
+
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  .combobox {
+    margin: 0 0 1rem 0;
+    width: 100%;
+    max-width: 100%;
+  }
+}

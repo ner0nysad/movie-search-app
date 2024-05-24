@@ -1,0 +1,11 @@
+.no_poster__image {
+  margin: 0 0 0.25rem 0;
+  max-width: 1.5rem;
+}
+.no_poster__text {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.3;
+  font-weight: 500;
+  color: var(--color-grey-500);
+}

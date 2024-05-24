@@ -1,0 +1,11 @@
+.breadcrumbs {
+  margin: 0 0 1.25rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.breadcrumbs__link {
+  white-space: normal;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--color-purple-500);
+}

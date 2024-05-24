@@ -1,0 +1,35 @@
+.not_found {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5rem 1.5rem 0;
+  min-height: 100vh;
+}
+.not_found__logo {
+  display: block;
+  width: auto;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+.not_found__image {
+  display: block;
+  width: 100%;
+  margin: 0 0 3rem 0;
+  max-width: 41rem;
+}
+.not_found__title {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .not_found {
+    padding: 3.5rem 1rem 0;
+  }
+  .not_found__image {
+    margin: 0 0 1rem 0;
+  }
+}

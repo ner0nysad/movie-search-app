@@ -1,0 +1,14 @@
+.button {
+  color: var(--color-purple-500);
+}
+.button:hover {
+  color: var(--color-purple-400);
+}
+.button:active {
+  color: var(--color-purple-600);
+}
+.button[data-disabled] {
+  color: var(--color-grey-600);
+  background: transparent;
+  cursor: auto;
+}

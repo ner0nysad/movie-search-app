@@ -1,0 +1,24 @@
+.navigation__item {
+  margin: 0 0 1rem 0;
+}
+.navigation__item:last-child {
+  margin: 0;
+}
+.navigation__link {
+  display: inline-block;
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+.navigation__link:hover {
+  background: transparent;
+  color: var(--color-purple-400);
+  font-weight: 400;
+}
+.navigation__link_active {
+  font-weight: 700;
+  color: var(--color-purple-500);
+  background: var(--color-purple-200);
+}
